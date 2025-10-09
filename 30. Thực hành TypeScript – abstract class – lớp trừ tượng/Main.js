@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Circle_1 = require("./Circle");
+var Retangle_1 = require("./Retangle");
+var c1 = new Circle_1.default(2, 2, 4);
+console.log(c1.calculateArea());
+console.log(c1.getInfo());
+console.log(c1.printZero());
+var r1 = new Retangle_1.default(2, 2, 4, 3);
+console.log(r1.calculateArea());
+console.log(r1.getInfo());
+console.log(r1.printZero());
