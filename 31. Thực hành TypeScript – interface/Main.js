@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Car_1 = require("./Car");
+var Bicycle_1 = require("./Bicycle");
+var myCar = new Car_1.default("Toyota", 120);
+var myColor = new Bicycle_1.default("Vin", 12, 1, "Redfull", 1, 1);
+var general = new Bicycle_1.default("ADV", 12, 1, "Blue", 1, 1);
+console.log(myCar.start());
+console.log(myColor.getColor());
+console.log(general.getColor());
+console.log(general.start());
+console.log(general.stop());
